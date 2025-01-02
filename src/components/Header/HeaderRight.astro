@@ -1,0 +1,20 @@
+---
+import { SITE } from "@/config";
+import HeaderLink from "./HeaderLink.astro";
+import Search from "./Search.astro";
+
+const { blogPage, githubId } = SITE;
+---
+
+<div class="flex-grow text-right md:mr-1 -mr-2.5">
+  <Search />
+  <HeaderLink href={blogPage} target="_blank">Person</HeaderLink>
+  <HeaderLink
+    href={`https://github.com/${githubId}`}
+    target="_blank"
+    class="lg:inline-block hidden">GitHub</HeaderLink
+  >
+  <HeaderLink href="/rss.xml" target="_blank" class="lg:inline-block hidden"
+    >RSS</HeaderLink
+  >
+</div>
