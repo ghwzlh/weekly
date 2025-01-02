@@ -8,8 +8,8 @@ import { SITE } from "./src/config";
 import rehypeCustomizeImageSrc from "./rehype-customize-image-src.js";
 
 const DEFAULT_FORMAT = "YYYY/MM/DD";
-const WEEKLY_REPO_NAME = "tw93/weekly";
-const START_DATE = "2022-10-10";
+// const WEEKLY_REPO_NAME = "tw93/weekly";
+const START_DATE = "2025-01-01";
 
 function formatDate(date) {
   return dayjs(date).format(DEFAULT_FORMAT);
@@ -25,13 +25,13 @@ function getWeeklyDate(num) {
     : getFileCreateDate(filePath);
 }
 
-function getTwitterImage(num) {
-  return num >= 110 ? `https://weekly.tw93.fun/assets/${num}.jpg` : undefined;
-}
+// function getTwitterImage(num) {
+//   return num >= 110 ? `https://weekly.tw93.fun/assets/${num}.jpg` : undefined;
+// }
 
 function defaultLayoutPlugin() {
   return function (tree, file) {
-    const filePath = file.history[0];
+    // const filePath = file.history[0];
     const { frontmatter } = file.data.astro;
     frontmatter.layout = "@layouts/post.astro";
 
