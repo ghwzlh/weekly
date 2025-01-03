@@ -2,7 +2,8 @@
 date: 2025/01/02
 ---
 
-<img src="https://web-ghw-demo.oss-cn-hangzhou.aliyuncs.com/1.jpg?Expires=1735849599&OSSAccessKeyId=TMP.3KdqZb4eyz3eKeGg3W22A1zpUNNpX82ZoeRfqp97uzxnQdMF8vgWsZWnBdCKdCB3zqyCw8kAQVq5wcwVhBLQEZbthN58Rt&Signature=CoGLIrMwjcQ3GZ782IsMLdhq1RE%3D" width="800" />
+<img src="https://web-ghw-demo.oss-cn-hangzhou.aliyuncs.com/1.jpg" width="800" />
+
 
 
 ## JDK动态代理
