@@ -4,7 +4,9 @@ date: 2025/01/02
 
 <img src="https://web-ghw-demo.oss-cn-hangzhou.aliyuncs.com/1.jpg" width="800" />
 
+<small>八阵图名成卧龙，六韬书功在飞熊。
 
+—— 蟾宫曲·怀古</small>
 
 ## JDK动态代理
 实现jdk代理有以下条件
