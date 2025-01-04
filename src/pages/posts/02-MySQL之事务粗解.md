@@ -223,7 +223,7 @@ update t_stu set name = "小红" where id = 5;
 
 虽然事务A此时应该是看不到这条数据的，但他更新了这条数据，然后事务A去查询ID为5的数据就可以看到了
 
-![img](https://web-ghw-demo.oss-cn-hangzhou.aliyuncs.com/%25E5%25B9%25BB%25E8%25AF%25BB%25E5%258F%2591%25E7%2594%259F.drawio.png)
+![img](https://web-ghw-demo.oss-cn-hangzhou.aliyuncs.com/aswfasaddfrasw.png)
 
 解释：
 
